@@ -1,0 +1,53 @@
+.mainBody{
+	text-align: center;
+}
+
+.rSquare{
+  background: red;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 75px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 75px;
+  color: black;
+}
+
+.bSquare{
+  background: black;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 75px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 75px;
+  color: red;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+.status {
+  margin-bottom: 10px;
+}
